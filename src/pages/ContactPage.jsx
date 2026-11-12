@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import GlobalTitle from '../components/posse/GlobalTitle'
-import dexianPageShell from '../components/posse/PossePageShell'
+import PossePageShell from '../components/posse/PossePageShell'
 import { COPY_ICON } from '../constants/posse'
 
 const CONTACT_HEADLINE = `Get in touch
@@ -39,7 +39,7 @@ export default function ContactPage() {
 
   if (submitted) {
     return (
-      <dexianPageShell>
+      <PossePageShell>
         <div className="contact-page df">
           <Link to="/" className="close-btn mid-font">
             Close
@@ -53,12 +53,12 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </dexianPageShell>
+      </PossePageShell>
     )
   }
 
   return (
-    <dexianPageShell>
+    <PossePageShell>
       <div className="contact-page df">
         <Link to="/" className="close-btn mid-font">
           Close
@@ -172,6 +172,6 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
-    </dexianPageShell>
+    </PossePageShell>
   )
 }

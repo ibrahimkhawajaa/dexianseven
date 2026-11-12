@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import GlobalTitle from '../components/posse/GlobalTitle'
-import dexianPageShell from '../components/posse/PossePageShell'
+import PossePageShell from '../components/posse/PossePageShell'
 import HorizontalCarousel from '../components/posse/HorizontalCarousel'
 import PlaySoundButton from '../components/posse/PlaySoundButton'
 import { HOME_HEADLINE, WORKS } from '../constants/posse'
@@ -9,7 +9,7 @@ export default function HomePage() {
   const firstWork = WORKS[0]
 
   return (
-    <dexianPageShell className="dexian-page--home">
+    <PossePageShell className="dexian-page--home">
       <div className="homepage">
         <div className="top">
           <div className="inner-logo">
@@ -65,6 +65,6 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-    </dexianPageShell>
+    </PossePageShell>
   )
 }

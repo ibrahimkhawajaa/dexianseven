@@ -1,3 +1,3 @@
-export default function dexianPageShell({ children, className = '' }) {
+export default function PossePageShell({ children, className = '' }) {
   return <div className={`dexian-page ${className}`.trim()}>{children}</div>
 }

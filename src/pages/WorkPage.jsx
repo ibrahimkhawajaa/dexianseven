@@ -1,6 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom'
 import GlobalTitle from '../components/posse/GlobalTitle'
-import dexianPageShell from '../components/posse/PossePageShell'
+import PossePageShell from '../components/posse/PossePageShell'
 import { WORKS } from '../constants/posse'
 
 const ARROW_ICON =
@@ -19,7 +19,7 @@ export default function WorkPage() {
   const next = index < WORKS.length - 1 ? WORKS[index + 1] : null
 
   return (
-    <dexianPageShell>
+    <PossePageShell>
       <div className="work-page df">
         <Link to="/" className="mid-font close-btn">
           Close
@@ -115,6 +115,6 @@ export default function WorkPage() {
           </div>
         </div>
       </div>
-    </dexianPageShell>
+    </PossePageShell>
   )
 }

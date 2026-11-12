@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import GlobalTitle from '../components/posse/GlobalTitle'
-import dexianPageShell from '../components/posse/PossePageShell'
+import PossePageShell from '../components/posse/PossePageShell'
 import NetworkGrid from '../components/posse/NetworkGrid'
 
 const INFO_HEADLINE = `Ads
@@ -33,7 +33,7 @@ export default function InfoPage() {
   }, [])
 
   return (
-    <dexianPageShell className="dexian-page--info">
+    <PossePageShell className="dexian-page--info">
       <div className="infos">
         <Link to="/" className="mid-font close-btn">
           Close
@@ -96,6 +96,6 @@ dexian`}
           </div>
         </div>
       </div>
-    </dexianPageShell>
+    </PossePageShell>
   )
 }

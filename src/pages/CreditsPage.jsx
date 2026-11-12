@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
-import dexianPageShell from '../components/posse/PossePageShell'
+import PossePageShell from '../components/posse/PossePageShell'
 
 export default function CreditsPage() {
   return (
-    <dexianPageShell>
+    <PossePageShell>
       <div className="credits-page">
         <Link to="/" className="mid-font close-btn">
           Close
@@ -22,6 +22,6 @@ export default function CreditsPage() {
           Back home
         </Link>
       </div>
-    </dexianPageShell>
+    </PossePageShell>
   )
 }

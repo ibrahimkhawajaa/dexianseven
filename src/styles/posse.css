@@ -1181,8 +1181,23 @@ body {
 }
 
 .work-page .work-left {
+  align-self: flex-start;
+  height: 100vh;
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 10px 0 10px 10px;
+  position: sticky;
+  scrollbar-color: #999 transparent;
+  scrollbar-width: thin;
+  top: 0;
   width: 50%;
+}
+
+.work-page .work-left:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: -2px;
 }
 
 .work-page .work-right {
@@ -1265,6 +1280,7 @@ body {
 
 .work-gallery {
   flex-direction: column;
+  gap: var(--grid-gutter);
   width: 100%;
 }
 
@@ -1279,7 +1295,6 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  margin-bottom: var(--grid-gutter);
 }
 
 .work-gallery .two-images img {
@@ -1329,8 +1344,13 @@ body {
 
 @media (max-width: 767px) {
   .work-page .work-left {
+    align-self: auto;
+    height: auto;
     order: 2;
+    overflow: visible;
     padding: 10px;
+    position: static;
+    scrollbar-width: auto;
     width: 100%;
   }
 

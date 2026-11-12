@@ -25,19 +25,28 @@ export default function WorkPage() {
           Close
         </Link>
 
-        <div className="work-left">
+        <div
+          className="work-left"
+          tabIndex={0}
+          aria-label={`${work.brand} project images. Scroll vertically to see all images.`}
+        >
           <div className="work-gallery df">
             {work.gallery.map((block, i) => {
               if (block.type === 'two') {
                 return (
                   <div key={i} className="two-images df">
-                    {block.images.map((src, j) => (
-                      <img key={j} src={src} alt="" loading="lazy" />
+                    {block.images.map((image, j) => (
+                      <img
+                        key={j}
+                        src={image.src}
+                        alt={image.alt ?? work.title}
+                        loading="lazy"
+                      />
                     ))}
                   </div>
                 )
               }
-              return <img key={i} src={block.src} alt="" loading="lazy" />
+              return <img key={i} src={block.src} alt={block.alt ?? work.title} loading="lazy" />
             })}
           </div>
         </div>
@@ -54,6 +63,7 @@ export default function WorkPage() {
                       className={w.slug === slug ? 'active' : ''}
                       title={w.title}
                       data-brand={w.brand}
+                      aria-label={`${w.brand}: ${w.title}`}
                     >
                       <img src={w.thumb} alt="" />
                     </Link>

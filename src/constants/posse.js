@@ -1,3 +1,10 @@
+import workloopHome from '../projects/prod1/download.png'
+import workloopProcess from '../projects/prod1/FireShot Capture 003 - How It Works - Workloop - [www.workloop.info].png'
+import workloopBlog from '../projects/prod1/FireShot Capture 006 - Workloop Blog - Premium Editorial Talent Strategy - [www.workloop.info].png'
+import cloverDashboard from '../projects/prod2/download.png'
+import cloverClientPortal from '../projects/prod2/FireShot Capture 010 - Clover Community Healthcare — Client Support Portal_ - [clover-new-4rlp.vercel.app].png'
+import cloverRequestForm from '../projects/prod2/FireShot Capture 011 - Clover Community Healthcare — Client Support Portal_ - [clover-new-4rlp.vercel.app].png'
+
 const CAROUSEL_BASE = [
   {
     path: '4baab232f1d8e6b6be9eba807e5a5eeccf52c657-2055x2220.jpg',
@@ -37,149 +44,54 @@ bold brands.`
 
 export const WORKS = [
   {
-    slug: 'st-germain-st-germain-spritz-le-grand-remix',
-    brand: 'St-Germain Spritz',
-    title: 'Le Grand Remix',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/ea93b30dd0ec692a65d07c16efa461806810d601-2048x1365.jpg?w=150&auto=format',
-    description: `Partnering with top agencies OMD, Monks & Laurent Guyot, dexian Agency had to think big during summer 2025 : imagine and produce a strong concept that will bring fame and popular engagement with St-Germain Spritz. It ended up into "St-Germain Spritz - Le Grand Remix", a unique blend of webserie, influence, social media and brand experience campaign.
-
-Afterwards, an ephemeral spot in Paris was created by dexian Agency, at Barapapa, to experience the St-Germain Spritz - Le Grand Remix experience.for real ! The chef's and influencer's food-pairing were offered with each St-Germain Spritz cocktail sold, during 1 month, on a breathtaking and tailor-made spot on les quais de Seine.`,
-    infos: [
-      'Expertise: Brand experience of the concept, design, venue scouting, bar deal, staffing, perfect execution of the chefs pairings, setup, dismantle, and storage.',
-      'Client: St Germain',
-      'Year: 2025',
-    ],
+    slug: 'workloop-hiring-platform',
+    brand: 'Workloop',
+    title: 'Hiring made\nsimple',
+    thumb: workloopHome,
+    description:
+      'A friendly website that helps growing teams find and hire remote talent. Clear pages explain the process, introduce the service, and share useful hiring advice.',
+    infos: ['Project: Hiring platform and website', 'Includes: Main site, process pages, and blog'],
     gallery: [
       {
-        type: 'two',
-        images: [
-          'https://cdn.sanity.io/images/jzwvg1cr/production/862d832ecc80e101ce7dbe7b42fe031753be4d55-2048x1366.jpg?w=750&auto=format',
-          'https://cdn.sanity.io/images/jzwvg1cr/production/aef0d16f6c74022a7e71002ba874eef3f3684e0d-2048x1366.jpg?w=750&auto=format',
-        ],
+        type: 'single',
+        src: workloopHome,
+        alt: 'Workloop homepage introducing its remote hiring service',
       },
       {
         type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/aab1c17ee7c06d94220533abc493a05c117bcc20-2048x1782.jpg?w=1500&auto=format',
+        src: workloopProcess,
+        alt: 'Workloop page explaining its hiring process',
       },
       {
-        type: 'two',
-        images: [
-          'https://cdn.sanity.io/images/jzwvg1cr/production/e19725774e072d0e2ced74238d2f6048b40c11d7-2048x1366.jpg?w=750&auto=format',
-          'https://cdn.sanity.io/images/jzwvg1cr/production/82495915251ac3fdd709f54721e279bf4c0f798d-8074x4542.jpg?w=750&auto=format',
-        ],
+        type: 'single',
+        src: workloopBlog,
+        alt: 'Workloop blog with hiring advice and articles',
       },
     ],
   },
   {
-    slug: 'santa-teresa-brand-booth-bar-whisky-live',
-    brand: 'Santa Teresa ',
-    title: 'Brand Booth & Bar @ Whisky Live',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/f364433c6665918687af04ddc8c40a5962c34759-6240x4160.jpg?w=150&auto=format',
+    slug: 'clover-healthcare-support-portal',
+    brand: 'Clover Community Healthcare',
+    title: 'Support, made\nsimpler',
+    thumb: cloverDashboard,
     description:
-      'dexian Agency crafted an immersive brand booth and bar experience for Santa Teresa at Whisky Live, bringing the spirit of Venezuela to life through experiential design and hospitality.',
-    infos: ['Client: Santa Teresa', 'Year: 2024'],
+      'A simple online space where patients can request help and care teams can keep things organized. The portal brings support forms, account tools, and clear dashboards together in one place.',
+    infos: ['Project: Healthcare support portal', 'Includes: Patient and team dashboards, support request form'],
     gallery: [
       {
         type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/f364433c6665918687af04ddc8c40a5962c34759-6240x4160.jpg?w=1500&auto=format',
+        src: cloverDashboard,
+        alt: 'Clover healthcare team dashboard',
       },
-    ],
-  },
-  {
-    slug: 'aberfeldy-craigellachie-brand-booth-bar-whisky-live',
-    brand: 'Aberfeldy & Craigellachie ',
-    title: 'Brand booth & bar @ Whisky Live',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/5bbd1ee4069979462e50171d039614c74919d619-6240x4160.jpg?w=150&auto=format',
-    description:
-      'A dual-brand experiential booth celebrating Scottish whisky heritage at Whisky Live, designed and produced by dexian Agency.',
-    infos: ['Client: Aberfeldy & Craigellachie', 'Year: 2024'],
-    gallery: [
       {
         type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/5bbd1ee4069979462e50171d039614c74919d619-6240x4160.jpg?w=1500&auto=format',
+        src: cloverClientPortal,
+        alt: 'Clover patient dashboard for tracking support requests',
       },
-    ],
-  },
-  {
-    slug: 'angels-envy-the-great-escape',
-    brand: "Angel's Envy",
-    title: 'The Great Escape',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/580aebf17748937ff7c39a3a3b8e323c38f4038b-5760x8640.jpg?w=150&auto=format',
-    description:
-      "An experiential campaign for Angel's Envy that invited audiences into a world of craft, escape, and premium bourbon storytelling.",
-    infos: ["Client: Angel's Envy", 'Year: 2024'],
-    gallery: [
       {
         type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/580aebf17748937ff7c39a3a3b8e323c38f4038b-5760x8640.jpg?w=1500&auto=format',
-      },
-    ],
-  },
-  {
-    slug: 'st-germain-spritz-club-2024',
-    brand: 'St Germain',
-    title: 'Spritz Club 2024',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/4c026fea115ed92e2a3d2920b3da97fc1173692e-7008x4672.jpg?w=150&auto=format',
-    description:
-      'The Spritz Club 2024 brought St-Germain to life through curated events, influence, and bold brand experiences across key markets.',
-    infos: ['Client: St-Germain', 'Year: 2024'],
-    gallery: [
-      {
-        type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/4c026fea115ed92e2a3d2920b3da97fc1173692e-7008x4672.jpg?w=1500&auto=format',
-      },
-    ],
-  },
-  {
-    slug: 'st-germain-la-serre-st-germain-spritz',
-    brand: 'St-Germain',
-    title: 'La Serre',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/ac05164a38047ad3e346f523053ad951bed816ad-3991x5986.jpg?w=150&auto=format',
-    description:
-      'La Serre — an immersive greenhouse experience celebrating the botanical soul of St-Germain Spritz.',
-    infos: ['Client: St-Germain', 'Year: 2024'],
-    gallery: [
-      {
-        type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/ac05164a38047ad3e346f523053ad951bed816ad-3991x5986.jpg?w=1500&auto=format',
-      },
-    ],
-  },
-  {
-    slug: 'santa-teresa-life-shaker-tour',
-    brand: 'Santa Teresa',
-    title: 'Life Shaker Tour',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/104b2fc30aa1e7ee677e12d13651b31ab4727607-3597x5396.jpg?w=150&auto=format',
-    description:
-      'A touring brand experience bringing the Santa Teresa Life Shaker to audiences across France.',
-    infos: ['Client: Santa Teresa', 'Year: 2024'],
-    gallery: [
-      {
-        type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/104b2fc30aa1e7ee677e12d13651b31ab4727607-3597x5396.jpg?w=1500&auto=format',
-      },
-    ],
-  },
-  {
-    slug: 'brand-booth-bar-duvel',
-    brand: 'Duvel',
-    title: 'Brand Booth & Bar Duvel',
-    thumb:
-      'https://cdn.sanity.io/images/jzwvg1cr/production/aff291fdfc7b7a1cd57443d7498451f49f7fe3a6-1080x810.jpg?w=150&auto=format',
-    description:
-      'A premium brand booth and bar activation for Duvel at a major industry event.',
-    infos: ['Client: Duvel', 'Year: 2024'],
-    gallery: [
-      {
-        type: 'single',
-        src: 'https://cdn.sanity.io/images/jzwvg1cr/production/aff291fdfc7b7a1cd57443d7498451f49f7fe3a6-1080x810.jpg?w=1500&auto=format',
+        src: cloverRequestForm,
+        alt: 'Clover multi-step patient support request form',
       },
     ],
   },

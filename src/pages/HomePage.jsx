@@ -24,7 +24,7 @@ export default function HomePage() {
           <header className="mid-font df">
             <div className="left df">
               <Link to={`/works/${firstWork.slug}`}>Works</Link>
-              <span className="length">(008)</span>
+              <span className="length">({String(WORKS.length).padStart(3, '0')})</span>
             </div>
             <div className="right df">
               <Link to="/info">Info</Link>
